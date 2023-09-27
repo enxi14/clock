@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Clock</title>
     <link rel="stylesheet" href="styles.css">
+    <title>World Clock</title>
 </head>
+
 <body>
-    <div class="clock-container">
-        <div class="clock" id="clock1"></div>
-        <div class="clock" id="clock2"></div>
-        <!-- Add more clock divs as needed -->
+    <div class="clock">
+        <div id="new-york" class="clock-item">
+            <h2>New York</h2>
+            <p id="new-york-time"></p>
+        </div>
+        <div id="london" class="clock-item">
+            <h2>London</h2>
+            <p id="london-time"></p>
+        </div>
+        <div id="tokyo" class="clock-item">
+            <h2>Tokyo</h2>
+            <p id="tokyo-time"></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

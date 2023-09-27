@@ -1,17 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
-}
-
-.clock-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .clock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.clock-item {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
     font-size: 24px;
-    margin: 20px;
+    font-weight: bold;
 }
