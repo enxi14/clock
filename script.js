@@ -1,5 +1,7 @@
 function updateClock(timeZone, elementId) {
-    const now = new Date().toLocaleString("en-US", { timeZone });
+    const options = { timeZone, hour12: false };
+    const now = new Date().toLocaleTimeString("en-US", options);
+
     document.getElementById(elementId).textContent = now;
 }
 
@@ -14,3 +16,5 @@ setInterval(updateWorldClock, 1000);
 
 // Initial update
 updateWorldClock();
+
+console.log("Script loaded");
