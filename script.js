@@ -11,10 +11,10 @@ function updateWorldClock() {
     updateClock("Asia/Tokyo", "tokyo-time");
 }
 
-// Update the clock every second
+
 setInterval(updateWorldClock, 1000);
 
-// Initial update
+
 updateWorldClock();
 
 console.log("Script loaded");
